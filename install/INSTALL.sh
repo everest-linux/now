@@ -1,7 +1,7 @@
 #!/bin/sh
 
-cp now.sh now
-mv now /usr/bin
-mv now.conf /etc
+cp ../scripts/now.sh ../scripts/now
+mv ../scripts/now /usr/bin
+mv ../scripts/now.conf /etc
 mkdir ~/.config/now
-mv events.sh ~/.config/now
+mv ../scripts/events.sh ~/.config/now
