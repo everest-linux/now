@@ -9,14 +9,14 @@ source ~/.config/now/events.sh
 while [[ $# -gt 0 ]]; do
 	case $1 in
 		-h|--help)
-		printf "$blue now - a simple to-do list written in POSIX sh $reset"
-		printf "now {-h --help}		show this message"
-		printf "now {-a --add} [name] [date] [time]		add an event"
-		printf "now {--version}		show the current version of now"
-		printf ""
-		printf "Events can be added by editing ~/.config/now/events.sh"
-		printf "If you would like to manually export the events instead, remove 'source ~/.config/now/events.sh'"
-		printf "This program is free software: see the GNU GPL v3.0 for details"
+		printf "$blue now - a simple to-do list written in POSIX sh $reset\n"
+		printf "now {-h --help}		show this message\n"
+		printf "now {-a --add} [name] [date] [time]		add an event\n"
+		printf "now {--version}		show the current version of now\n"
+		printf "\n"
+		printf "Events can be added by editing ~/.config/now/events.sh\n"
+		printf "If you would like to manually export the events instead, remove 'source ~/.config/now/events.sh'\n"
+		printf "This program is free software: see the GNU GPL v3.0 for details\n"
 		exit 0
 		;;
 		--version)
