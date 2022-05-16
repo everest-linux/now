@@ -17,6 +17,7 @@ while [[ $# -gt 0 ]]; do
 		printf "Events can be added by editing ~/.config/now/events.sh"
 		printf "If you would like to manually export the events instead, remove 'source ~/.config/now/events.sh'"
 		printf "This program is free software: see the GNU GPL v3.0 for details"
+		exit 0
 		;;
 		--version)
 		printf "$blue now - v0.1rc $reset"
